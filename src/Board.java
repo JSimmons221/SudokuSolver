@@ -13,13 +13,13 @@ public class Board {
         int[][] iboard = p.readPuzzle("easy");
         for (int r = 0; r < iboard.length; r++) {
             for (int c = 0; c < iboard[0].length; c++) {
-                board[r][c] = new Square(iboard[r][c]);
+                board[r][c] = new Square(iboard[r][c],r,c);
 
             }
         }
     }
 
-    private void determinePossibles{
+    private void determinePossibles () {
 
     }
 }
