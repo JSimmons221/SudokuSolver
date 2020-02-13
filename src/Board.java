@@ -19,7 +19,9 @@ public class Board {
         }
     }
 
-    private void determinePossibles () {
+    private void solveBoard () { //loop through board and use fill possibles on each
 
     }
+
+    //draw board?
 }
